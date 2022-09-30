@@ -1,0 +1,42 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+}
+
+.event-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #effe;
+}
+.event{
+    width: 75%;
+    display: block;
+    justify-content: space-between;
+}
+.birthdaycake-img{
+    float: right;
+}
+.birthdaycake-img img{
+    width: 500px;
+    height: 500px;
+}
+
+.event-title{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: #240D57;
+}
+
+.event-host{
+    margin-top: 5px;
+    font-style: normal;
+    font-size: 18px;
+    color: #828282;
+}
+.event-host span{
+    font-weight: bold;
+}
