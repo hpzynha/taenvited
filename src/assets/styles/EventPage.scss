@@ -40,3 +40,46 @@ body{
 .event-host span{
     font-weight: bold;
 }
+
+.row{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.row .icon{
+    margin-left: 0.5rem;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 10px;
+}
+
+.row .text-event {
+    margin-left: 1.5rem;
+    width: fit-content;
+    
+}
+.title{
+    color: #240D57;
+    font-size: 18px;
+    font-weight: 700;
+}
+.row .text-event p{
+    margin-bottom: -5px;
+    margin-top: -15px;
+    color: #4F4F4F;
+}
+.date-evidence{
+    font-weight: 700;
+}
+
+.title input::placeholder{
+    color: #240D57;;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
