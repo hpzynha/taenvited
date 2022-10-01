@@ -10,6 +10,7 @@ const EventPage = () => {
         streetName: '',
         address: '',
         date: '',
+        finishDate: '',
     }
 
   return (
@@ -33,10 +34,10 @@ const EventPage = () => {
               /></div>
               
               <br />
-              <p>
-                to <span className="date-evidence">19 August 1:00PM UTC</span>{" "}
-                +10
-              </p>
+              <p><input className="date-evidence" placeholder="19 August 1:00PM UTC" 
+              onChange={(e) =>{ data.setState({finishDate: e.target.value})}}
+              />
+                </p>
             </div>
           </div>
           <div className="row">
@@ -48,7 +49,7 @@ const EventPage = () => {
               onChange={(e) =>{ data.setState({streetName: e.target.value})}}
               /></div>
               <br />
-              <p><input placeholder="Suburb, state, Postcode" 
+              <p><input className="address" placeholder="Suburb, state, Postcode" 
               onChange={(e) =>{ data.setState({streetName: e.target.value})}}
               />
                 </p>

@@ -69,9 +69,22 @@ body{
     margin-top: -15px;
     color: #4F4F4F;
 }
-.date-evidence{
-    font-weight: 700;
+.row .text-event {
+    margin-bottom: -5px;
+    margin-top: -15px;
+    color: #4F4F4F;
 }
+.date-evidence{
+    color: #4F4F4F;
+    font-size: 18px; 
+}
+.address{
+    color: #4F4F4F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
 
 .title input::placeholder{
     color: #240D57;;
